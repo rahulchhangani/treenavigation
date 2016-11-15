@@ -14,7 +14,23 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+  
+  <!-- Spring 3 dependencies -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+	</dependencies>	
+  <properties>
+		<spring.version>4.3.3.RELEASE</spring.version>
+	</properties>
   <build>
     <finalName>nutreenavigation</finalName>
   </build>
