@@ -9,7 +9,8 @@
         				http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
 	<context:component-scan base-package="controller" />
-	
+	<mvc:resources mapping="/resources/**" location="/resources/bootstrap/"
+	cache-period="31556926"/>
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix"><value>/WEB-INF/views/</value></property>
