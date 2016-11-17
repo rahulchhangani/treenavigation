@@ -37,7 +37,7 @@
               <input type="password" placeholder="Password" class="form-control">
             </div>
             <button type="submit" class="btn btn-success">Sign in</button>
-            <button type="button" class="btn btn-danger"><i class="fa fa-tree"></i>Plant A Tree</button>
+            <button type="button" class="btn btn-danger"><i class="fa fa-tree"></i>&nbsp;&nbsp;Plant A Tree</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -54,7 +54,7 @@
             </div>
             </div>
             <div class="col-lg-2">
-            <button type="submit" class="btn btn-primary"><i class="fa fa-location-arrow"></i>Navigate Me!</button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Navigate Me!</button>
             </div>
           </form>
           </div>
